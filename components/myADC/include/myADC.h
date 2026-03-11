@@ -1,4 +1,3 @@
-#include "hal/adc_types.h"
 
 void myADC_setup(int channel);
 
