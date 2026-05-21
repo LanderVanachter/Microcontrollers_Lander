@@ -1,0 +1,12 @@
+dependencies:
+  myGPIO:
+    path: components/myGPIO
+    git: https://github.com/KNaelaerts/ESP32_Periferie.git
+
+  myADC:
+    path: components/myADC
+    git: https://github.com/KNaelaerts/ESP32_Periferie.git
+
+  myPWM:
+    path: components/myPWM
+    git: https://github.com/KNaelaerts/ESP32_Periferie.git

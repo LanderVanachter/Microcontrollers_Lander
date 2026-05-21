@@ -1,0 +1,36 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+  myADC:
+    component_hash: 7b9c99727d5023ea65ebec5d771e739d6ea467e87d1f4faaa9ad3d10c124bd5a
+    dependencies: []
+    source:
+      git: https://github.com/KNaelaerts/ESP32_Periferie.git
+      path: components/myADC
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+  myGPIO:
+    component_hash: 6e9caf0ea609a17e939511db326c103bd5febeaca93f33458b9d9cced5b11d4b
+    dependencies: []
+    source:
+      git: https://github.com/KNaelaerts/ESP32_Periferie.git
+      path: components/myGPIO
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+  myPWM:
+    component_hash: 10fe464726f63938cd7441166d6f812bf4363e145ce021f553536b2778f72782
+    dependencies: []
+    source:
+      git: https://github.com/KNaelaerts/ESP32_Periferie.git
+      path: components/myPWM
+      type: git
+    version: a1623523337cabfc1783a4fe8213e07b7b3ea8f5
+direct_dependencies:
+- myADC
+- myGPIO
+- myPWM
+manifest_hash: bd0957350691639405c2058221b6474e032027fa46264507602063f155ddf4c3
+target: esp32s3
+version: 2.0.0
